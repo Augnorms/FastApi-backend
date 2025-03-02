@@ -5,7 +5,7 @@
 .vscode/
 
 #ignore env file
-env
+.env
 
 # Ignore Python cache files
 __pycache__/
