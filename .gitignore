@@ -4,6 +4,9 @@
 # Ignore VS Code settings (optional)
 .vscode/
 
+#ignore env file
+env
+
 # Ignore Python cache files
 __pycache__/
 *.pyc
