@@ -12,7 +12,7 @@ csv_file_path = os.path.join(os.getcwd(), "heart.csv")
 
 @router.post("/predict")
 def predict_condition(predict: PredictSchema):
-    print("working directory",os.getcwd())
+   
     try:
         # Load CSV data
         data = pd.read_csv(csv_file_path)
