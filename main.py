@@ -13,3 +13,4 @@ app = FastAPI()
 app.include_router(create_user.router, tags=['create-user'])
 app.include_router(get_all_users.router, tags=["get-users"])
 app.include_router(linear.router, tags=['predict'])
+
